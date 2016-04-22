@@ -89,10 +89,11 @@ namespace ProvaPratica
 
             double media = (double)idadeR / contR;
             double porcent = (double)contP / espectadores * 100;
-            Console.WriteLine("A quantidade de respostas ótimas: " + contA);
-            Console.WriteLine("A média de idade das pessoas que responderam Ruim  " + media);
-            Console.WriteLine("A porcentagem de respostas Péssimo  " + porcent);
-            Console.WriteLine("A maior idade que utilizou respostas Péssimo  " + maiorP);
+            
+            Console.WriteLine( "Ótimo: "               +   contA   +   '\n'   + 
+                               "Média idade ruin: "    +   media   +   '\n'   +
+                               "Porcentagem péssimo: " +   porcent +   '\n'   +
+                               "Maior idade péssimo: " +   maiorP );
         }
 
 
